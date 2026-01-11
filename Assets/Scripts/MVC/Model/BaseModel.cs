@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class BaseModel : MonoBehaviour
+public class BaseModel
 {
-    // Start is called before the first frame update
-    void Start()
+    public BaseController controller;
+
+    public BaseModel(BaseController controller)
     {
-        
+        this.controller = controller;
+    }
+    public BaseModel()
+    {
     }
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Init()
     {
-        
+
     }
+
 }
