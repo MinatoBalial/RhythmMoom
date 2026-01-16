@@ -24,9 +24,13 @@ public interface IBaseView
 
     void SetVisible(bool value); //…Ë÷√œ‘ æ“˛≤ÿ
 
-    int viewId
+    int ViewId
     {
         get;set;
     }
 
+    BaseController Controller
+    {
+        get;set;
+    }
 }

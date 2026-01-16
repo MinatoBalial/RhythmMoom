@@ -102,4 +102,35 @@ public class BaseController
         //return GameApp.ControllerManager.GetControllerModel(controllerKey);
     }
 
+    //删除的时候
+    public virtual void Destroy()
+    {
+
+    }
+    
+    //初始化模块事件
+    public virtual void InitModuleEvent()
+    {
+
+    }
+
+    //初始化全局事件
+    public virtual void InitGlobalEvent()
+    {
+
+    }
+
+    //移除模块事件
+    public virtual void RemoveModuleEvent()
+    {
+
+    }
+
+    //移除全局事件
+    public virtual void RemoveGlobalEvent()
+    {
+
+    }
+    
+
 }
